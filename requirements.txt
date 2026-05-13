@@ -1,0 +1,26 @@
+# imageFL 依賴清單
+# 安裝方法：pip install -r requirements.txt
+# 或鎖定版本：pip install -r requirements.txt --freeze > requirements-lock.txt
+
+# 深度學習框架
+torch>=2.0.0
+numpy>=1.21.0
+
+# Web 框架
+fastapi>=0.95.0
+uvicorn>=0.21.0
+
+# 非同步通訊
+aiohttp>=3.8.0
+
+# 影像處理
+Pillow>=8.0.0
+
+# 機器學習工具
+scikit-learn>=0.24.0
+
+# 資料處理（可選，某些腳本可能用到）
+pandas>=1.3.0
+
+# 監控與日誌（可選）
+tqdm>=4.60.0
